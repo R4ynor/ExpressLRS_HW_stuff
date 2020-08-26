@@ -68,7 +68,7 @@
   "project": {
     "files": [
       {
-        "name": "..\\ELRS_lib\\",
+        "name": "..\\..\\..\\..\\..\\..\\Program Files\\KiCad\\",
         "open": false,
         "window": {
           "display": 0,
@@ -80,7 +80,7 @@
         }
       },
       {
-        "name": "e28_tx.sch",
+        "name": "e28_tx.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
