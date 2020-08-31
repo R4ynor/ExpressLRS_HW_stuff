@@ -89,7 +89,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -105,9 +105,7 @@
       "track_widths": [
         0.25,
         0.2,
-        0.25,
         0.4,
-        0.5,
         0.6
       ],
       "via_dimensions": [
@@ -308,13 +306,13 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "e28_tx.kicad_pro",
+    "filename": "20x20_sx1280.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 6.0,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -371,7 +369,7 @@
   },
   "sheets": [
     [
-      "657e8faf-cc92-4526-882d-0c50bd75f73b",
+      "bd0b42c1-bd59-49a8-a76c-eee0984bb98b",
       ""
     ]
   ],
