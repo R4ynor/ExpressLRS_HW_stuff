@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 44,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -60,10 +60,10 @@
       37,
       38
     ],
-    "visible_layers": "fffffff_ffffffff"
+    "visible_layers": "ffc3fff_ffffffff"
   },
   "meta": {
-    "filename": "20x20_sx1280.kicad_prl",
+    "filename": "min_sx1280.kicad_prl",
     "version": 2
   },
   "project": {

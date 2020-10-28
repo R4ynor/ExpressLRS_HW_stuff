@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -59,7 +59,7 @@
       36,
       37
     ],
-    "visible_layers": "0bcff_80000001"
+    "visible_layers": "43eff_ffffffff"
   },
   "meta": {
     "filename": "e28_tx.kicad_prl",
@@ -68,7 +68,43 @@
   "project": {
     "files": [
       {
+        "name": "..\\..\\..\\..\\..\\..\\Program Files\\KiCad\\",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -8,
+          "pos_y": 0,
+          "size_x": 1936,
+          "size_y": 1295
+        }
+      },
+      {
         "name": "e28_tx.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
+        "name": "e28_tx.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -9,
+          "pos_y": 0,
+          "size_x": 1936,
+          "size_y": 1047
+        }
+      },
+      {
+        "name": "e28_tx.kicad_pro",
         "open": false,
         "window": {
           "display": 0,
