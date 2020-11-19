@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(5.99.0-6613-ge739d5ba65)"
     },
-    "CreationDate": "2020-11-02T19:14:16+01:00"
+    "CreationDate": "2020-11-19T23:40:31+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -72,6 +72,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -113,6 +114,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]
