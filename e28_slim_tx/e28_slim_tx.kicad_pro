@@ -66,7 +66,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_too_small": "error",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -74,10 +74,9 @@
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
-        "keepout": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_too_small": "error",
+        "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -95,7 +94,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "via_hole_larger_than_pad": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -103,8 +101,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_clearance": 0.16,
+        "min_copper_edge_clearance": 0.01,
+        "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -122,7 +121,9 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.4,
+        0.5,
         0.6
       ],
       "via_dimensions": [
@@ -328,13 +329,13 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "min_sx1280.kicad_pro",
+    "filename": "e28_slim_tx.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
+        "bus_width": 12.0,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -399,7 +400,7 @@
   },
   "sheets": [
     [
-      "25a219ac-c0fd-455e-bd27-f08e4af7f5ef",
+      "963bccb6-c1ad-4fab-91ac-304070641c16",
       ""
     ]
   ],
